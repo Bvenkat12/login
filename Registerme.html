@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amazon</title>
+<style>
+
+.body
+{
+background-color:black;
+}
+.container
+{
+position:relative;
+top:100px;
+left:500px;
+
+height:400px;
+width:350px;
+border-radius:30px;
+box-sizing:border-box;
+
+}
+.container:hover{
+box-shadow:10px 5px 15px 10px red;
+}
+
+.register
+{
+position:absolute;
+top:0px;
+left:140px;
+font-size:30px;
+font-family:Brush Script MT;
+color:white;
+}
+.name
+{
+position:absolute;
+top:50px;
+left:50px;
+font-family:Bell MT;
+font-size:20px;
+color:white;
+}
+.input1
+{
+position:absolute;
+top:100px;
+left:50px;
+}
+.password
+{
+position:absolute;
+top:110px;
+left:50px;
+font-family:Bell MT;
+font-size:20px;
+color:white;
+}
+.input2
+{
+position:absolute;
+top:160px;
+left:50px;
+}
+
+.mail
+{
+position:absolute;
+top:170px;
+left:50px;
+font-family:Bell MT;
+font-size:20px;
+color:white;
+}
+.input3
+{
+position:absolute;
+top:220px;
+left:50px;
+}
+
+.phone
+{
+position:absolute;
+top:230px;
+left:50px;
+font-family:Bell MT;
+font-size:20px;
+color:white;
+}
+.input4
+{
+position:absolute;
+top:280px;
+left:50px;
+}
+input[type=submit]{
+position:relative;
+  background-color:red;
+  border-radius:10px;
+  color: white;
+  padding: 16px 26px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  top:320px;
+  left:50px;
+  width:100px;
+}
+input[type=submit]:hover
+{
+box-shadow:1px 5px 15px 1px red;
+}
+</style>
+
+</head>
+<body class="body">
+
+<div class="container">
+<div class="register"><h4 >Register</h4></div>
+<form action="Register.html" method="post">
+<div class="name"><p>Name</p></div>
+<div class="input1"><input type="text" id="name" autocomplete="off" size="30" required></div>
+<div class="password"><p>Password</p></div>
+<div class="input2"><input type="password" name="pwd" size="30" required></div>
+
+<div class="mail"><p>Email</p></div>
+<div class="input3"><input type="text" name="mail" size="30" required></div>
+<div class="phone"><p>Phone Number</p></div>
+<div class="input4"><input type="text" name="phno" size="30"required></div>
+<a href="Register.html"><input type="submit" value="SUBMIT"></a>
+</form>
+</div>
+
+
+</body>
+</html>
+

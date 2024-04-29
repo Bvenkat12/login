@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amazon</title>
+
+<style>
+
+.body
+{
+background-color:black;
+}
+.container
+{
+position:relative;
+top:100px;
+left:500px;
+
+height:400px;
+width:350px;
+border-radius:30px;
+box-sizing:border-box;
+
+}
+.container:hover{
+box-shadow:10px 5px 15px 10px red;
+}
+.login
+{
+position:absolute;
+top:25px;
+left:90px;
+font-size:30px;
+font-family:Brush Script MT;
+color:white;
+}
+.p
+{
+position:absolute;
+color:white;
+font-family:Arial Narrow;
+top:100px;
+left:50px;
+right:30px;
+}
+.input1
+{
+position:absolute;
+top:200px;
+left:50px;
+}
+input[type=submit]{
+position:relative;
+  background-color:red;
+  border-radius:10px;
+  color: white;
+  padding: 16px 26px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  top:310px;
+  left:50px;
+  width:100px;
+}
+input[type=submit]:hover
+{
+box-shadow:1px 5px 15px 1px red;
+}
+</style>
+</head>
+<body class="body">
+
+<div class="container">
+<div class="login"><h4 >Forgot Password</h4></div>
+<p class="p">Don't worry!Enter your registered email below we will send the link to reset your Password.</p>
+<form action="sent.html" method="post">
+<div class="input1"><input type="email" name="email" size="30" autocomplete="off" required></div>
+<input type="submit" value="check">
+</div>
+</form>
+</body>
+</html>

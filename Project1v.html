@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amazon</title>
+
+
+
+<style>
+.body
+{
+background-color:black;
+}
+.container
+{
+position:relative;
+top:100px;
+left:500px;
+
+height:400px;
+width:350px;
+border-radius:30px;
+box-sizing:border-box;
+
+}
+.container:hover{
+box-shadow:10px 5px 15px 10px red;
+}
+.login
+{
+position:absolute;
+top:25px;
+left:140px;
+font-size:30px;
+font-family:Brush Script MT;
+color:white;
+}
+.username
+{
+position:absolute;
+top:100px;
+left:50px;
+font-family:Bell MT;
+font-size:20px;
+color:white;
+}
+.input1
+{
+position:absolute;
+top:150px;
+left:50px;
+}
+.password
+{
+position:absolute;
+top:170px;
+left:50px;
+font-family:Bell MT;
+font-size:20px;
+color:white;
+}
+.input2
+{
+position:absolute;
+top:220px;
+left:50px;
+}
+
+input[type=submit]{
+position:relative;
+  background-color:red;
+  border-radius:10px;
+  color: white;
+  padding: 16px 26px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  top:310px;
+  left:50px;
+  width:100px;
+}
+.p
+{
+position:absolute;
+color:white;
+top:240px;
+left:50px;
+}
+.q
+{
+position:absolute;
+color:white;
+top:270px;
+left:50px;
+}
+input[type=button]:hover
+{
+box-shadow:1px 5px 15px 1px red;
+}
+</style>
+
+</head>
+<body class="body">
+
+<div class="container">
+<div class="login"><h4 >Login</h4></div>
+<form action="website.html" method="post">
+<div class="username"><p>Username</p></div>
+<div class="input1"><input type="text" id="name" autocomplete="off" size="30" required></div>
+<div class="password"><p>Password</p></div>
+<div class="input2"><input type="password" id="pwd" size="30" required></div>
+<a href="website.html"><input type="submit" value="submit"></a>
+
+<p class="p">Don't have account <a href="Registerme.html">Register me..!!</a></p>
+<p class="q"><a href="Forgot.html">Forgot Password</a></p>
+</form>
+</div>
+
+</body>
+</html>
